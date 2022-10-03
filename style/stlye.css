@@ -13,11 +13,14 @@ body {
 
 .start-btn,
 .info-box,
-.quiz-box {
+.quiz-box,
+.result-box {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0px 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Start Quiz Button styling */
@@ -34,10 +37,12 @@ body {
 }
 
 .info-box {
-  display: none;
   width: 540px;
   background: #fff;
   border-radius: 5px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0.9);
 }
 
 .info-box .info-title {
@@ -46,7 +51,7 @@ body {
   border-bottom: 1px solid lightgray;
   display: flex;
   align-items: center;
-  padding: 0 35px;
+  padding: 0 3px;
   font-size: 20px;
   font-weight: 600;
 }
@@ -107,10 +112,12 @@ body {
 }
 
 .quiz-box {
-  display: none;
   width: 550px;
   background: #fff;
   border-radius: 5px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0.9);
 }
 
 .quiz-box header {
@@ -264,4 +271,61 @@ footer .next-btn {
 
 footer .next-btn:hover {
   background: #0263ca;
+}
+
+.result-box {
+  background: #fff;
+  width: 450px;
+  padding: 25px 30px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0.9);
+}
+
+.result-box .icon {
+  font-size: 100px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.result-box .complete-text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.result-box .score-text span {
+  display: flex;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.score-text span p {
+  font-weight: 600;
+  padding: 0 4px;
+}
+
+.result-box .btns {
+  display: flex;
+  margin: 20px 0;
+}
+
+.result-box .btns button {
+  margin: 0 10px;
+  height: 45px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
