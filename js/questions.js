@@ -54,6 +54,28 @@ let questions = [
             "eXtra Multi Program Language",
             "eXamine Multiple Language"
         ]
+    },
+    {
+        num: 6,
+        question: "where is Tehran?",
+        answer: "center of iran",
+        options: [
+            "left of iran",
+            "right of iran",
+            "top of iran",
+            "center of iran",
+        ]
+    },
+    {
+        num: 7,
+        question: "هر سال چند فصل دارد؟",
+        answer: "4",
+        options: [
+            "4",
+            "1",
+            "2",
+            "3",
+        ]
     }
     
 ]
