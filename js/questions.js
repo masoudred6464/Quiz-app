@@ -2,81 +2,114 @@
 let questions = [
     {
         num: 1,
-        question: "What does HTML stand for?",
-        answer: "Hyper Text Markup Language",
+        question: "کدام درخت نماد صلح است؟",
+        answer: "زیتون",
         options: [
-            "Hyper Text Preprocessor",
-            "Hyper Text Markup Language",
-            "Hyper Text Multiple Language",
-            "Hyper Tool Multi Language"
+            "سرو",
+            "زیتون",
+            "سیب",
+            "نارنج"
         ]
     },
     {
         num: 2,
-        question: "What does Css stand for?",
-        answer: "Cascading Style Sheet",
+        question: " آقای گل ملی جهان کیست؟",
+        answer: "کریس رونالدو",
         options: [
-            "Common Style Sheet",
-            "Colorful Style Sheet",
-            "Computer Style Sheet",
-            "Cascading Style Sheet"
+            "مارادونا",
+            "لیونل مسی",
+            "علی دایی",
+            "کریس رونالدو"
         ]
     },
     {
         num: 3,
-        question: "What does PHP stand for?",
-        answer: "Hypertext Preprocessor",
+        question: "جزایر لانگرهانس در کجا قرار دارد؟",
+        answer: "لوز المعده",
         options: [
-            "Hypertext Preprocessor",
-            "Hypertext programming",
-            "Hypertext Preprogramming",
-            "Hometext Preprocessor"
+            "اقیانوسیه",
+            "جمجمه",
+            "اسپانیا",
+            "لوز المعده"
         ]
     },
     {
         num: 4,
-        question: "What does SQL stand for?",
-        answer: "Structured Query Language",
+        question: "چند درصد بدن انسان را آب تشکیل می‌دهد؟",
+        answer: "60 درصد",
         options: [
-            "Stylish Question Language",
-            "Stylesheet Query Language",
-            "Statement Question Language",
-            "Structured Query Language"
+            "40 درصد",
+            "30 درصد",
+            "60 درصد",
+            "50 درصد"
         ]
     },
     {
         num: 5,
-        question: "What does XML stand for?",
-        answer: "eXtensible Markup Language",
+        question: "پاریس کوچولو لقب کدام شهر ایران است؟",
+        answer: "بروجرد",
         options: [
-            "eXtensible Markup Language",
-            "eXecutable Multiple Language",
-            "eXtra Multi Program Language",
-            "eXamine Multiple Language"
+            "اصفهان",
+            "بروجرد",
+            "تبریز",
+            "شیراز"
         ]
     },
     {
         num: 6,
-        question: "where is Tehran?",
-        answer: "center of iran",
+        question: " شهر بهار نارنج لفب کدام شهر ایران است؟",
+        answer: "بابل",
         options: [
-            "left of iran",
-            "right of iran",
-            "top of iran",
-            "center of iran",
+            "بوشهر",
+            "زاهدان",
+            "خوی",
+            "بابل",
         ]
     },
     {
         num: 7,
-        question: "هر سال چند فصل دارد؟",
-        answer: "4",
+        question: "کدام حشره بیشترین طول عمر را دارد؟",
+        answer: "موریانه",
         options: [
-            "4",
-            "1",
-            "2",
-            "3",
+            "موریانه",
+            "عنکبوت",
+            "ملخ",
+            "مورچه",
         ]
-    }
+    },
+    {
+        num: 8,
+        question: "کدام حیوان در هنگام خواب یک چشم خود را باز نگه می‌دارد؟",
+        answer: "گرگ",
+        options: [
+            "شغال",
+            "جغد",
+            "گرگ",
+            "روباه",
+        ]
+    },
+    {
+        num: 9,
+        question: "عمیق‌ترین دریاچه جهان کدام است؟",
+        answer: "بایکال",
+        options: [
+            "خزر",
+            "بایکال",
+            "تی تی کالا",
+            "وان",
+        ]
+    },
+    {
+        num: 10,
+        question: "در بمباران اتمی ژاپن توسط آمریکا، نام بمبی که بر روی شهر هیروشیما انداخته شد چه بود؟",
+        answer: "پسر کوچک",
+        options: [
+            "پسر کوچک",
+            "مرد کوچک",
+            "پسر چاق",
+            "مرد چاق",
+        ]
+    },
     
 ]
 

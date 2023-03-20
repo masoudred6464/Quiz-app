@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,45 +12,47 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   </head>
   <body>
+    <div id="particles-js"></div>
     <!-- Start Quiz Button -->
-    <div class="start-btn"><button>Start Quiz</button></div>
+    <div class="start-btn"><button>شروع آزمون</button></div>
 
     <!-- Info Box -->
     <div class="info-box">
       <div class="info-title">
-        <span>Some Rules of this Quiz</span>
+        <span>قوانین پاسخگویی به سوالات</span>
       </div>
       <div class="info-list">
         <div class="info">
-          1. You will have only <span>15 seconds</span> per each questions.
+          ۱. شما فقط <span>۱۵ ثانیه</span> برای پاسخگویی به هر سوال فرصت دارید.
         </div>
         <div class="info">
-          2. Once you select your answer, you can't reselect.
+          ۲. هنگامی که یک گزینه را انتخاب کردید، امکان تصحیح آن وجود ندارد.
         </div>
         <div class="info">
-          3. You can't select any option once time goes off.
+          ۳. هنگامی که زمان به پایان برسد نمیتوانید گزینه ای را انتخاب کنید.
         </div>
         <div class="info">
-          4. You can't exit from the Quiz while you're playing.
+          ۴. در هنگام آزمون تا پایان سوالات نمیتوانید خارج شوید.
         </div>
         <div class="info">
-          5. You'll get points on the basis of your correct answers.
+          ۵. بر اساس تعداد پاسخ های صحیح امتیاز میگیرید.
         </div>
       </div>
       <div class="btns">
-        <button class="quit">Exit Quiz</button>
-        <button class="restart">Continue</button>
+        <button class="quit">خروج</button>
+        <button class="restart">ادامه</button>
       </div>
     </div>
 
     <!-- Quiz Box -->
     <div class="quiz-box">
       <header>
-        <div class="title">Awesome Quiz Application</div>
+        <div class="title">آزمون عمومی</div>
         <div class="timer">
-          <div class="time-text">Time Left</div>
+          <div class="time-text">زمان باقی مانده </div>
           <div class="timer-sec">15</div>
         </div>
         <div class="time-line"></div>
@@ -86,7 +88,7 @@
             Questions</span
           > -->
         </div>
-        <button class="next-btn">Next Que</button>
+        <button class="next-btn">بعدی</button>
       </footer>
     </div>
 
@@ -95,7 +97,7 @@
       <div class="icon">
         <i class="fas fa-crown"></i>
       </div>
-      <div class="complete-text">You've completed the Quiz!</div>
+      <div class="complete-text">آزمون به پایان رسید!</div>
       <div class="score-text">
         <!-- <span
           >and sorry, You got only
@@ -105,11 +107,12 @@
         > -->
       </div>
       <div class="btns">
-        <button class="restart">Replay Quiz</button>
-        <button class="quit">Quit Quiz</button>
+        <button class="restart">تکرار آزمون</button>
+        <button class="quit">خروج</button>
       </div>
     </div>
 
+    <script src="./js/particles.js"></script>
     <!-- js file -->
     <script src="js/script.js" type="module"></script>
   </body>

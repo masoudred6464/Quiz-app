@@ -60,7 +60,7 @@ nextBtn.addEventListener("click", () => {
     startTimeline(widthValue);
 
     nextBtn.style.display = "none";
-    timeText.innerHTML = "Time Left";
+    timeText.innerHTML = "زمان باقی مانده";
   } else {
     clearInterval(counter);
     clearInterval(counterLine);
@@ -130,7 +130,7 @@ function showQuestions(index) {
 //change questionsCount dynamically
 function queCounter(index) {
   const bottomQuesCounter = document.querySelector(".total-que");
-  let totalQuesCountTag = `<span><p>${index}</p>of<p>${questions.length}</p>Questions</span>`;
+  let totalQuesCountTag = `<span>سوال<p>${index}</p>از<p>${questions.length}</p></span>`;
   bottomQuesCounter.innerHTML = totalQuesCountTag;
 }
 
@@ -139,13 +139,13 @@ function showResultBox() {
   resultBox.classList.add("activeResult");
 
   if (userScore > 3) {
-    let scoreTag = `<span>and congrats😎, You got<p>${userScore}</p>out of<p>${questions.length}</p></span>`;
+    let scoreTag = `<span>عالی😎امتیاز شما ${userScore} از ${questions.length} </span>`;
     scoreText.innerHTML = scoreTag;
   } else if (userScore > 1) {
-    let scoreTag = `<span>and nice😁, You got <p>${userScore}</p>out of<p>${questions.length}</p></span>`;
+    let scoreTag = `<span>خوب😀امتیاز شما ${userScore} از ${questions.length} </span>`;
     scoreText.innerHTML = scoreTag;
   } else {
-    let scoreTag = `<span>and sorry😢, You got only<p>${userScore}</p>out of<p>${questions.length}</p></span>`;
+    let scoreTag = `<span>ضعیف😥امتیاز شما ${userScore} از ${questions.length} </span>`;
     scoreText.innerHTML = scoreTag;
   }
 }
@@ -209,7 +209,7 @@ function startTimer(time) {
       }
 
       nextBtn.style.display = "block";
-      timeText.innerHTML = "Time off";
+      timeText.innerHTML = "اتمام وقت";
     }
   }
 }

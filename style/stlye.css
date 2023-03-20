@@ -1,14 +1,18 @@
 /* importing font link */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap");
+@import url("./font.css");
+
+:root {
+  --primary-color: #303877;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Iran Sans";
 }
 
 body {
-  background-color: #007bff;
+  background-color: #1a1f48;
 }
 
 .start-btn,
@@ -37,7 +41,7 @@ body {
 .start-btn button {
   font-size: 25px;
   font-weight: 500;
-  color: #007bff;
+  color: var(--primary-color);
   padding: 15px 30px;
   outline: none;
   border: none;
@@ -77,7 +81,7 @@ body {
 
 .info-box .info-list .info span {
   font-weight: 600;
-  color: #007bff;
+  color: var(--primary-color);
 }
 
 .info-box .btns {
@@ -103,7 +107,7 @@ body {
 }
 
 .btns button.restart {
-  background: #007bff;
+  background: var(--primary-color);
   color: #fff;
 }
 
@@ -112,13 +116,13 @@ body {
 }
 
 .btns button.quit {
-  border: 1px solid #007bff;
-  color: #007bff;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
 }
 
 .btns button.quit:hover {
   color: #fff;
-  background: #007bff;
+  background: var(--primary-color);
 }
 
 .quiz-box {
@@ -185,7 +189,7 @@ body {
   bottom: 0;
   left: 0;
   height: 3px;
-  background: #007bff;
+  background: var(--primary-color);
 }
 
 .quiz-box section {
@@ -296,9 +300,9 @@ footer .next-btn {
   border: none;
   outline: none;
   color: #fff;
-  background: #007bff;
+  background: var(--primary-color);
   border-radius: 5px;
-  border: 1px solid #007bff;
+  border: 1px solid var(--primary-color);
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -324,7 +328,7 @@ footer .next-btn:hover {
 
 .result-box .icon {
   font-size: 100px;
-  color: #007bff;
+  color: var(--primary-color);
   margin-bottom: 10px;
 }
 
@@ -359,7 +363,11 @@ footer .next-btn:hover {
   font-size: 18px;
   font-weight: 500;
   border-radius: 5px;
-  border: 1px solid #007bff;
+  border: 1px solid var(--primary-color);
   cursor: pointer;
   transition: all 0.3s ease;
+}
+
+.particles-js-canvas-el {
+  height: 100vh !important;
 }
