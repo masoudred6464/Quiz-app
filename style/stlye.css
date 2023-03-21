@@ -13,6 +13,7 @@
 
 body {
   background-color: #1a1f48;
+  overflow-x: hidden;
 }
 
 .start-btn,
@@ -51,7 +52,7 @@ body {
 }
 
 .info-box {
-  width: 540px;
+  max-width: 540px;
   background: #fff;
   border-radius: 5px;
   opacity: 0;
@@ -107,6 +108,7 @@ body {
 }
 
 .btns button.restart {
+  width: 130px;
   background: var(--primary-color);
   color: #fff;
 }
@@ -126,7 +128,7 @@ body {
 }
 
 .quiz-box {
-  width: 550px;
+  max-width: 550px;
   background: #fff;
   border-radius: 5px;
   opacity: 0;
@@ -313,7 +315,7 @@ footer .next-btn:hover {
 
 .result-box {
   background: #fff;
-  width: 450px;
+  max-width: 450px;
   padding: 25px 30px;
   border-radius: 5px;
   text-align: center;
